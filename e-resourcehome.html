@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>E-Resource technology</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial scale="1">
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header-container{
+            display:flex;
+            justify-content:space-between;
+            padding:15px;
+            background-color:rgb(31, 30, 30);
+
+        }
+        .header-container img{
+            height:40px;
+            width:120px;
+        }
+        .header-container h1{
+            align-items: center;
+            margin-right: 100px;
+            color: white;
+
+        }
+
+        nav{
+            display: flex;
+            justify-content: center;
+    
+            background-color:white;
+            gap: 70px;
+            
+
+        }
+        nav button{
+            width: fit-content;
+            display:flex;
+            text-decoration: none;
+            background-color:white;
+            color: rgb(31, 30, 30);
+            margin: 10px;
+            padding: 5px 10px;
+        }
+        nav button:hover{
+            color:white;
+            background-color:rgb(31, 30, 30);
+
+        }
+        h2{
+            padding: 20px;
+            margin-top: 6%;
+            color: rgb(43, 39, 39);
+        }
+
+            /* Paragraph */
+        p{
+            padding-left: 50px;
+            font-size: 18px;
+            color: black;
+            padding-right: 15px;
+           
+        }
+        .content{
+            padding:50px;
+            display: flex;
+            padding-right: 90px;
+            padding-left: 90px;
+        }
+        .content p{
+            padding:50px;
+            color:white;
+            font-size: 20px;
+            font-weight: 600;
+            background-color: rgb(0, 0, 0,0.3);
+            
+        }
+
+        .button-container{
+            display: flex;
+            justify-content: center;
+            gap: 70px; 
+            padding-top: 100px;
+        }
+
+
+        button{
+            background-color:white;
+            color: rgb(31, 30, 30);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            width: 170px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        button:hover{
+            background-color:rgb(31, 30, 30) ;
+            color:white;
+        }
+        section{
+            background-image: url("../lib.jpg");
+            height:80vh;
+        }
+        section#about-us {
+            height:100vh;
+            background-color: #ffffff;
+            padding: 50px;
+            margin-top: 20px;
+            background-image: none;
+        }
+        section#about-us h2{
+            color:black;
+        }
+
+        .about-us-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            justify-content: space-between; /* Space between image and text */
+        }
+
+        .about-us-container img {
+            width: 400px; 
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-us-container p {
+            flex:1;
+            font-size: 18px;
+            color: rgb(70, 70, 70);
+            line-height: 1.6;
+        }
+
+        section#departments {
+            height:100vh;
+            background-color:#f4f4f4;
+            padding: 50px;
+            background-image: none;   
+        }
+        h2{
+            color:rgb(20, 19, 19);
+            margin-top: 10px;
+            padding-bottom: 30px;
+        }
+        .departments-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .department-item {
+            background-color: rgb(15, 14, 14);
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .department-item h3 {
+            color: #f4f4f4;
+        }
+        .department-item p {
+            color: #f4f4f4;
+        }
+        section#study-with-us{
+            padding:50px;
+            background-image: none;
+            background-color: black;
+            height:100vh;
+        }
+        #study-with-us h2{
+            color:#f4f4f4
+        }
+
+        ul {
+            margin-left: 20px; /* Adjust indentation */
+            list-style-type: disc; /* Bullet point style */
+            font-size: 18px;
+            color:white;
+        }
+
+        ul li {
+            margin-bottom: 15px; /* Space between bullet points */
+        }
+
+        h2 {
+            margin-bottom: 20px; /* Space below the heading */
+            
+        }
+        footer{
+            color: white;
+            text-align: center; 
+            padding: 10px;
+            position: relative;
+            top:160px;
+            width: 100%;
+        }
+        </style>
+        </head>
+    
+    <body>
+        <header class="header-container">
+        
+                <img src="../logofina.png" alt="logo">
+                <h1>E-Resource Technology</h1>
+                <div>
+                    
+                </div>
+        
+        </header>
+        <nav>
+            <div>
+                <button>Home</button>
+            </div>
+            <div>
+                <button id="about-us-button">About us</button>
+            </div>
+            <div>
+                <button id="study-with-us-button">Study with us</button>
+
+            </div>
+            <div>
+                <button id="dept">Departments</button>
+            </div>
+
+        </nav>
+       
+        </main>
+        <section>
+            <div class="content">
+
+                <p>E-Resource Technology connects students with digital resources while fostering interactive learning experiences with professors.
+                Explore a comprehensive platform designed to enhance eduction and collaboration.</p>
+
+ 
+            </div>
+        
+            <div class="button-container">
+                <a href="login.html">
+                    <button>Login</button>
+                </a>
+                <a href="register.html">
+                    <button>Register</button>
+                </a>
+            </div>
+        </section>
+        <section id="about-us">
+            <h2>ABOUT US</h2>
+            <div class="about-us-container">
+                <p>At E-Resource Technology, we are committed to transforming education through innovative digital solutions. Our platform connects students and educators, offering a seamless learning experience with access to a wide range of resources and tools. We aim to foster collaboration, empower learners, and bridge the gap between traditional and modern education.</p>
+                <img src="../aboutus.webp" alt="About Us Image">
+                
+            </div>
+        </section>
+        <section id="study-with-us">
+            <h2>STUDY WITH US</h2>
+            <ul>
+                <li>Access a variety of online courses designed to help you excel in your field.</li>
+                <li>Participate in workshops led by industry professionals to gain practical skills.</li>
+                <li>Take advantage of one-on-one tutoring services tailored to your needs.</li>
+                <li>Join study groups to collaborate and learn with your peers.</li>
+                <li>Explore career counseling and mentorship opportunities for future guidance.</li>
+            </ul>
+        </section>
+        
+        <section id="dept-button">
+            <section id="departments">
+                <h2>DEPARTMENTS</h2>
+                <div class="departments-list">
+                    <div class="department-item">
+                        <h3>Computer Science & Engineering</h3>
+                        <p>Focuses on the design, implementation, and management of software and hardware systems.</p>
+                    </div>
+                    <div class="department-item">
+                        <h3>Information Technology</h3>
+                        <p>Specializes in managing information systems, data analytics, and emerging technologies.</p>
+                    </div>
+                    <div class="department-item">
+                        <h3>Electronics & Communication Engineering</h3>
+                        <p>Explores signal processing, communication systems, and microelectronics.</p>
+                    </div>
+                    <div class="department-item">
+                        <h3>Mechanical Engineering</h3>
+                        <p>Deals with the design, analysis, and manufacturing of mechanical systems.</p>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+       
+        <footer>
+            <p>&copy; 2024 E-Resource Tech. All Rights Reserved.</p>
+        </footer>
+
+
+        
+        <script>
+            document.getElementById('about-us-button').addEventListener('click', function() {
+                document.getElementById('about-us').scrollIntoView({ behavior: 'smooth' });
+            });
+        
+            document.getElementById('dept').addEventListener('click', function() {
+                document.getElementById('departments').scrollIntoView({ behavior: 'smooth' });
+            });
+            
+            document.getElementById('study-with-us-button').addEventListener('click', function() {
+                document.getElementById('study-with-us').scrollIntoView({ behavior: 'smooth' });
+            });
+
+
+        </script>
+    
+    </body>
+</html>
